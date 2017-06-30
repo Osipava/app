@@ -1,0 +1,17 @@
+CREATE SCHEMA `test` DEFAULT CHARACTER SET utf8;
+CREATE TABLE `users` (
+  `id` int(2) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) NOT NULL,
+  `age` int(3) NOT NULL,
+  `isAdmin` bit(1) NOT NULL DEFAULT b'0',
+  `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8
+INSERT INTO test.users (name, age, isAdmin, created) VALUES ('Dima', 35, true, '2017-06-30 15:53:18');
+INSERT INTO test.users (name, age, isAdmin, created) VALUES ('Alex', 45, false, '2017-06-27 08:57:48');
+INSERT INTO test.users (name, age, isAdmin, created) VALUES ('Dina', 21, true, '2017-06-26 10:22:37');
+INSERT INTO test.users (name, age, isAdmin, created) VALUES ('Alena', 30, true, '2017-06-27 16:36:55');
+INSERT INTO test.users (name, age, isAdmin, created) VALUES ('Nick', 34, true, '2017-06-27 16:39:49');
+INSERT INTO test.users (name, age, isAdmin, created) VALUES ('Vanya', 34, false, '2017-06-27 16:39:41');
+INSERT INTO test.users (name, age, isAdmin, created) VALUES ('Evgeniy', 26, true, '2017-06-28 04:55:30');
+INSERT INTO test.users (name, age, isAdmin, created) VALUES ('Helen', 12, true, '2017-06-30 15:55:14');
