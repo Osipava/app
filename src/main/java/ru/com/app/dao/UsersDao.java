@@ -4,9 +4,6 @@ import ru.com.app.model.UsersEntity;
 
 import java.util.List;
 
-/**
- * Created by User on 19.06.2017.
- */
 public interface UsersDao {
     public void addUsersEntity(UsersEntity usersEntity);
 

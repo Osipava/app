@@ -1,7 +1,6 @@
 package ru.com.app.service;
 
 import ru.com.app.model.UsersEntity;
-
 import java.util.List;
 
 
