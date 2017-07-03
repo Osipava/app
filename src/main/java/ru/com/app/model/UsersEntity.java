@@ -1,19 +1,14 @@
 package ru.com.app.model;
 
 
-import org.hibernate.annotations.FilterDef;
-import org.hibernate.annotations.ParamDef;
+
 
 import javax.persistence.*;
 
 import java.sql.Timestamp;
 
-/**
- * Created by User on 17.06.2017.
- */
 @Entity
 @Table(name = "users", schema = "test")
-@FilterDef(name = "userFilter", defaultCondition = "name like :name", parameters = {@ParamDef(name = "name", type = "string")})
 
 public class UsersEntity {
     private int id;

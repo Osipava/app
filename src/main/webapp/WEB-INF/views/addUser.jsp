@@ -6,13 +6,6 @@
 <%@ taglib prefix="from" uri="http://www.springframework.org/tags/form" %>
 
 
-<%--
-  Created by IntelliJ IDEA.
-  User: ZheLe
-  Date: 21.02.2017
-  Time: 22:58
-  To change this template use File | Settings | File Templates.
---%>
 <html>
 <head>
     <title>Add user</title>

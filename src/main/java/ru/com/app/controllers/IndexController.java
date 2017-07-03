@@ -5,16 +5,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
-import ru.com.app.dao.UsersDao;
 import ru.com.app.model.UsersEntity;
 import ru.com.app.service.UsersService;
 
 import java.util.List;
 
-
-/**
- * Created by saurabh on 2/10/17.
- */
 
 @Controller
 public class IndexController {

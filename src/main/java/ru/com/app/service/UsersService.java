@@ -4,9 +4,7 @@ import ru.com.app.model.UsersEntity;
 
 import java.util.List;
 
-/**
- * Created by User on 30.06.2017.
- */
+
 public interface UsersService {
     public void addUsersEntity(UsersEntity usersEntity);
 
